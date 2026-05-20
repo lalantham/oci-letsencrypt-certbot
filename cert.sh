@@ -9,10 +9,12 @@
 # =============================================================================
 
 # ── Configuration ─────────────────────────────────────────────────────────────
-OCI_CLI="/home/lalantha/.local/bin/oci"
-LB_ID="ocid1.loadbalancer.oc1.ap-mumbai-1.YOUR_LB_OCID_HERE"
-LISTENER_NAME="listener_lb_2024-1029-1603"
-BACKEND_SET_NAME="bs_lb_2024-1029-1603"
+# Path to your OCI CLI binary (e.g., "oci" if in system PATH or custom home path)
+OCI_CLI="oci" 
+
+LB_ID="ocid1.loadbalancer.oc1.ap-mumbai-1.aaaaaaaaexampleloadbalancerocidplaceholder"
+LISTENER_NAME="your-https-listener-name"
+BACKEND_SET_NAME="your-backend-set-name"
 CERT_DATE=$(date +"%Y-%m-%d")
 # ──────────────────────────────────────────────────────────────────────────────
 
