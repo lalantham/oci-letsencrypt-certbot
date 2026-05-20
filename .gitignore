@@ -1,0 +1,9 @@
+# OCI CLI config — never commit credentials
+.oci/
+*.pem
+*.key
+*.crt
+
+# OS
+.DS_Store
+Thumbs.db
