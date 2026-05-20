@@ -1,4 +1,4 @@
-# OCI Let's Encrypt Certbot — Auto-renewal with OCI Load Balancer
+# OCI Let's Encrypt Certbot - Auto-renewal with OCI Load Balancer
 
 Automates Let's Encrypt certificate issuance and renewal, uploading updated certs directly to an **OCI Load Balancer** via the OCI CLI deploy hook.
 
